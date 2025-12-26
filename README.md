@@ -5,6 +5,7 @@ This project demonstrates how machine learning classification algorithms can be 
 Educational institutions can benefit from early identification of students who may need academic support. This project applies two popular classification algorithms:
 
 1.)Decision Tree Classifier
+
 2.)Gaussian Naive Bayes
 
 Both models are trained and evaluated on the Student Performance Dataset, and their results are compared using accuracy, classification reports, and confusion matrices.
@@ -13,16 +14,16 @@ Source: Student Performance Dataset (Math)
 
 Target Variable: performance
 
-###Performance Levels:
+### Performance Levels:
 
 Low: 0–9
 Medium: 10–14
 High: 15–20
 
-###Numeric:
+### Numeric:
 age, absences, G1, G2, studytime, failures, traveltime
 
-###Categorical:
+### Categorical:
 School, gender, family background, study support, activities, internet access, etc.
 
 Data Preprocessing
@@ -31,8 +32,9 @@ Scaled numeric features.
 Encoded categorical features.
 Performed stratified train–test split (75% / 25%)
 
-##Machine Learning Models
-🌳 Decision Tree Classifier
+## Machine Learning Models
+
+### Decision Tree Classifier
 
 Non-parametric supervised learning algorithm
 
@@ -42,7 +44,7 @@ Easy to interpret and visualize
 
 Handles feature interactions effectively
 
-📊 Gaussian Naive Bayes
+### Gaussian Naive Bayes
 
 Probabilistic classifier based on Bayes’ theorem
 
@@ -52,7 +54,7 @@ Very fast and efficient
 
 Works well with large datasets
 
-📈 Model Evaluation
+### Model Evaluation 
 
 The models are evaluated using:
 
@@ -64,7 +66,7 @@ Confusion Matrix
 
 5-Fold Cross Validation
 
-🔍 Results Summary
+ Results Summary
 
 Decision Tree provides better interpretability
 
@@ -72,7 +74,7 @@ Naive Bayes performs faster with simple assumptions
 
 Previous grades (G1, G2) strongly influence predictions
 
-📊 Visualizations
+Visualizations
 
 Confusion matrices for both classifiers
 
@@ -80,11 +82,3 @@ Decision Tree visualization (top levels)
 
 Clear distinction between correct and incorrect predictions
 
-🔮 Live Prediction Example
-
-A sample student profile is created to demonstrate real-time prediction.
-Both models output:
-
-Predicted performance level
-
-Class probability distribution
