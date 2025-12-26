@@ -1,53 +1,37 @@
-## Student Performance Prediction
-Decision Tree vs Naive Bayes (Machine Learning Demo)
+# Student Performance Prediction Decision Tree vs Naive Bayes.
 
 This project demonstrates how machine learning classification algorithms can be used to predict student performance levels based on academic, demographic, and social factors. Instead of predicting exact marks, students are classified into Low, Medium, or High performance categories.
 
-📌 Project Overview
-
 Educational institutions can benefit from early identification of students who may need academic support. This project applies two popular classification algorithms:
 
-Decision Tree Classifier
-
-Gaussian Naive Bayes
+1.)Decision Tree Classifier
+2.)Gaussian Naive Bayes
 
 Both models are trained and evaluated on the Student Performance Dataset, and their results are compared using accuracy, classification reports, and confusion matrices.
-
-📂 Dataset
 
 Source: Student Performance Dataset (Math)
 
 Target Variable: performance
 
-Performance Levels:
+###Performance Levels:
 
 Low: 0–9
-
 Medium: 10–14
-
 High: 15–20
 
-🔢 Features Used
-
-Numeric:
+###Numeric:
 age, absences, G1, G2, studytime, failures, traveltime
 
-Categorical:
+###Categorical:
 School, gender, family background, study support, activities, internet access, etc.
 
-⚙️ Data Preprocessing
-
+Data Preprocessing
 Converted final grade (G3) into categorical performance levels
-
-Scaled numeric features using StandardScaler
-
-Encoded categorical features using One-Hot Encoding
-
-Used ColumnTransformer for clean preprocessing
-
+Scaled numeric features.
+Encoded categorical features.
 Performed stratified train–test split (75% / 25%)
 
-🧠 Machine Learning Models
+##Machine Learning Models
 🌳 Decision Tree Classifier
 
 Non-parametric supervised learning algorithm
